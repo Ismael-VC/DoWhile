@@ -8,7 +8,7 @@ the end of the `block`.
 
 # Examples
 ```julia
-julia> Pkg.clone("")
+julia> Pkg.clone("https://github.com/Ismael-VC/DoWhile.jl.git")
 
 julia> using DoWhile
 
