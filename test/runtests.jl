@@ -13,5 +13,4 @@ end :while i < 10
     i -= 1
 end :while i > 5
 
-@show i
 @test i == 5
