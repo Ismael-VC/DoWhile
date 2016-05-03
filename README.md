@@ -4,10 +4,9 @@
 
     @do block :while condition
 
-Control flow statement that executes a `block` of code at least once,
-and then repeatedly executes the `block` in a **local** scope or not,
-depending on a given boolean `condition` after the `:while` symbol at
-the end of the `block`.
+Control flow statement that executes in a **local** scope a `block` of code at least once,
+and then repeatedly executes the `block` or not, depending on a given boolean `condition`
+after the `:while` symbol at the end of the `block`.
 
 # Examples
 ```julia
